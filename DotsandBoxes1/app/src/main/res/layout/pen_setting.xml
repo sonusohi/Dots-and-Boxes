@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="#6b6969">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_height="70dp"
+        android:background="#6b6969">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/imageView3"
+            android:background="@mipmap/pen_line_ic_launcher"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="#6b6969"
+        android:baselineAligned="false">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageButton11"
+
+            android:src="@mipmap/pen_ic_launcher"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageButton12"
+            android:layout_marginLeft="0dp"
+
+            android:src="@mipmap/pencil_ic_launcher"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageButton13"
+            android:src="@mipmap/brush_ic_launcher"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageButton2"
+            android:src="@mipmap/chalk_ic_launcher"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+
+</LinearLayout>
